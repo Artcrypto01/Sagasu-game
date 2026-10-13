@@ -6,7 +6,7 @@ leaderboard. Play as a guest or authenticate with a supported Solana wallet.
 
 Live game: https://game.sagasusol.xyz/
 
-The owner reports that SAGASU Beta is published in the Solana Mobile dApp Store.
+SAGASU Beta is available on the Solana Mobile dApp Store.
 Android package: `xyz.sagasusol.game.beta`, version `0.1.2-beta` (code 3).
 
 ## Repository Scope
