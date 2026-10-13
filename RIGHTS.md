@@ -9,9 +9,9 @@ The neutral Android launcher vector is a source-review placeholder, not the
 production logo. Do not imply that a fork is an official SAGASU release.
 
 Third-party components retain their own license terms. Browser notices:
-- game-idea-2/assets/LUCIDE-LICENSE
-- game-idea-2/assets/SUPABASE-LICENSE
-- game-idea-2/assets/wallet-connect-LICENSE
+- game/assets/LUCIDE-LICENSE
+- game/assets/SUPABASE-LICENSE
+- game/assets/wallet-connect-LICENSE
 
 The Android shell is adapted from Solana Mobile's WebView shell template.
 Its Apache-2.0 license is included at android-beta/UPSTREAM-LICENSE, with

@@ -2,14 +2,14 @@ const fs=require('node:fs/promises');
 const path=require('node:path');
 const {parseEnv}=require('node:util');
 const vm=require('node:vm');
-const token=require('./game-idea-2/token-balance.js');
+const token=require('./game/token-balance.js');
 
 function createBalanceHandler({root,fetcher=fetch,readPrivate,publicConfig,rpcUrl,allowedOrigin}={}){
   const limits=new Map();
   async function config(){
     if(publicConfig)return publicConfig;
     const window={};
-    vm.runInNewContext(await fs.readFile(path.join(root,'game-idea-2/cloud-config.js'),'utf8'),{window});
+    vm.runInNewContext(await fs.readFile(path.join(root,'game/cloud-config.js'),'utf8'),{window});
     return window.SagasuCloudConfig;
   }
   async function rpcURL(){

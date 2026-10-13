@@ -23,15 +23,14 @@ signing key, credentials, APKs or team documents are included.
 
 ## Architecture
 
-- `game-idea-2/`: vanilla HTML/CSS/JavaScript gameplay and account UI. The folder
-  name is retained to preserve existing asset references and APK URLs.
+- `game/`: vanilla HTML/CSS/JavaScript gameplay and account UI.
 - `deployment/wallet-tools/wallet-entry.js`: Wallet Standard and Solana Mobile
   Wallet Adapter integration; bundled browser output and notices are included.
-- `game-idea-2/cloud-account.js`: signed Solana wallet authentication through
+- `game/cloud-account.js`: signed Solana wallet authentication through
   Supabase, account switching and bounded startup/save operations.
-- `game-idea-2/progress-sync.js`: persistent pending saves, retries and revision
+- `game/progress-sync.js`: persistent pending saves, retries and revision
   checks to handle concurrent device updates.
-- `game-idea-2/leaderboard.js`: client for server-validated ranked rounds.
+- `game/leaderboard.js`: client for server-validated ranked rounds.
 - `balance-backend.cjs`: verifies the authenticated wallet identity before a
   fixed token-balance query through a server-side Helius RPC URL.
 - `android-beta/`: Android WebView shell with native wallet-intent routing,
@@ -44,7 +43,7 @@ cash-redemption feature or claim of financial returns in the current beta.
 
 Requires Node.js 22 or later. Root scripts have no npm runtime dependencies.
 
-1. Copy `game-idea-2/cloud-config.example.js` to `game-idea-2/cloud-config.js`.
+1. Copy `game/cloud-config.example.js` to `game/cloud-config.js`.
 2. Set your own Supabase project URL and public publishable key. Never place a
    service-role key, RPC API key, private key or signing password in browser code.
 3. If authorized, place private media at the paths listed in `MEDIA.md`.
@@ -85,7 +84,7 @@ npm run build
 ```
 
 The committed lockfile fixes dependency versions. Bundle output and third-party
-license notices are written to `game-idea-2/assets/`.
+license notices are written to `game/assets/`.
 
 ## Android
 

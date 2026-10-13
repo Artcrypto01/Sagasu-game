@@ -7,9 +7,9 @@ Ask the project's owner for authorized development assets.
 Expected local paths, preserving capitalization/spaces:
 
 - `icon.png`: production avatar/favicon.
-- `game-idea-2/assets/*.png`: room backgrounds and floor layers.
-- `game-idea-2/assets/ui/`: wordmark and illustrated UI/gameplay icons.
-- `game-idea-2/assets/opening-voice/{sa,ga,su}.wav`: opening syllables.
+- `game/assets/*.png`: room backgrounds and floor layers.
+- `game/assets/ui/`: wordmark and illustrated UI/gameplay icons.
+- `game/assets/opening-voice/{sa,ga,su}.wav`: opening syllables.
 - `game art from illustrator/openingnew.mp4`: mandatory intro.
 - `game art from illustrator/background before game.jpg`: lobby scene.
 - `game art from illustrator/opening backsound.mp3`, `beforegame.mp3` and
