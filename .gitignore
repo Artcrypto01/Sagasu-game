@@ -1,4 +1,40 @@
 # Logs
+/.private/
+**/*private*/
+.env
+.env.*
+!.env.example
+**/cloud-config.js
+**/local.properties
+**/.gradle/
+**/.kotlin/
+**/build/
+*.keystore
+*.jks
+*.p12
+*.pem
+credentials.json
+*.apk
+*.aab
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp3
+*.mp4
+*.wav
+*.pdf
+*.docx
+*.psd
+*.ai
+*.woff
+*.woff2
+/game art from illustrator/
+/website sagasu/
+media-manifest.local.json
+
 logs
 *.log
 npm-debug.log*
